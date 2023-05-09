@@ -32,9 +32,9 @@ while not register:
         user = {}
         username=input('ID: ')
         while True:
-            pwd1 =input('PWD: ')
+            pwd =input('PWD: ')
             pwd2 =input('PWD확인: ')
-            if pwd1==pwd2:
+            if pwd==pwd2:
                 break
             else:
                 print('패스워드가 일치하지 않습니다.')
@@ -47,3 +47,27 @@ while not register:
                 print('생년월일이 올바르게 입력되지 않았습니다. ')
         email=input('이메일: ')
         
+        user['username']=username
+        user['password']=pwd
+        user['name'] = name
+        user['birth'] = birth
+        user['email'] = email
+
+        users.append(user)
+        print(users)
+
+        print ('===============================')
+        print (user['name'],'님 가입을 환영합니다!')
+        print ('===============================')
+
+        print('회원가입을 추가로 진행하시겠습니까?')
+        print('Y: 진행                    N:취소')
+        answer=input(">>  ")
+        answer=answer.lower()
+
+        if answer =='y':
+            pass
+        elif answer == 'n':
+            exit()
+
+            
