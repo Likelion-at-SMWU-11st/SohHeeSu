@@ -1,8 +1,13 @@
 import './App.css';
+import Hello from './Hello';
+import Counter from './Counter';
 
 function App() {
   return (
-    <div>멋사 프론트 4주차 세미나</div>
+    <>
+    <Hello name="Heesoo" color="blue"/>
+    <Counter/>
+    </>
   );
 }
 
