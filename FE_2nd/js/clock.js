@@ -6,7 +6,7 @@ function getClock() {
     const minutes = String(date.getMinutes()).padStart(2,"0");
     const seconds = String(date.getSeconds()).padStart(2,"0");
     console.log(`${hours}:${minutes}:${seconds}`);
-    clock.innerHTML = "지금 시각은 00:00";
+    clock.innerHTML = "지금 시각은 " + `${hours}:${minutes}:${seconds}`;
 }
 
 getClock();
