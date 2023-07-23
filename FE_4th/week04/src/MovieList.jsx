@@ -5,7 +5,7 @@ const MovieList = () => {
     const [movies, setMovies] = useState([]);
 
     useEffect(()=> {
-        axios.get('http://localhost:8000/movies')
+        axios.get('http://localhost:8000/books')
         .then(response => {
             setMovies(response.data);
         })
