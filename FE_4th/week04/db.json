@@ -15,5 +15,28 @@
         "title": "여름날 우리",
         "description": "처음이었다, 사랑이 싹트는 기분. 너에게 풍덩 빠져버렸던 17살의 여름."
       }
-    ]
+    ],
+
+    "books": [
+        {
+          "id": 1,
+          "title": "이기적 유전자",
+          "description": "⭐⭐⭐⭐⭐"
+        },
+        {
+          "id": 2,
+          "title": "날씨의 아이",
+          "description": "⭐⭐⭐⭐"
+        },
+        {
+          "id": 3,
+          "title": "코스모스",
+          "description": "⭐"
+        },
+        {
+          "id": 4,
+          "title": "로미오앤드줄리엣",
+          "description": "⭐⭐⭐"
+        }
+      ]
 }
