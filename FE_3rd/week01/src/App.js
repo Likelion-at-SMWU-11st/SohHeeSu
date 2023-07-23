@@ -1,8 +1,19 @@
 import './App.css';
+import Apage from './Apage';
+import Bpage from './Bpage';
 
 function App() {
+
+  const bool = false;
+
   return (
-    <h3>멋사 프론트 3주차 세션</h3>
+    <>
+    {
+      bool == true
+      ? <div><Bpage/></div>
+      : <div><Apage/></div>
+    }
+    </>
   );
 }
 
